@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lodging – Taniti Tourism</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="lodging-page">
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-content">
+      <h1 class="logo">TANITI</h1>
+      <nav class="main-nav" id="mainNav">
+        <a href="home.html">Home</a>
+        <a href="lodging.html">Lodging</a>
+        <a href="restaurants.html">Restaurants</a>
+        <a href="activities.html">Activities</a>
+        <a href="home.html#about">About</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="page-banner" style="background-image: url('./assets/lodging.jpg')">
+    <div class="banner-overlay">
+      <h1>Lodging</h1>
+    </div>
+  </section>
+
+  <!-- Lodging Grid -->
+  <section class="grid-section container">
+
+    <div class="card">
+      <img src="./assets/lodging/beach-resort.jpg" alt="Taniti Beach Resort" />
+      <div class="card-info">
+        <h2>Taniti Beach Resort</h2>
+        <p>Luxury beachfront resort with full-service spa, infinity pool, and fine dining. Perfect for a relaxing island escape.</p>
+        <ul class="card-details">
+          <li><strong>Max Capacity:</strong> 4 guests</li>
+          <li><strong>Minimum Nights:</strong> 2</li>
+          <li><strong>Price Per Night:</strong> $280</li>
+          <li><strong>Address:</strong> 101 Oceanfront Drive, Taniti City</li>
+        </ul>
+        <button class="btn-secondary" data-lodging="taniti-beach-resort">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/lodging/palm-grove-villas.jpg" alt="Palm Grove Villas" />
+      <div class="card-info">
+        <h2>Palm Grove Villas</h2>
+        <p>Private villa rentals surrounded by lush gardens and just minutes from the beach. Ideal for families and groups.</p>
+        <ul class="card-details">
+          <li><strong>Max Capacity:</strong> 6 guests</li>
+          <li><strong>Minimum Nights:</strong> 3</li>
+          <li><strong>Price Per Night:</strong> $350</li>
+          <li><strong>Address:</strong> 12 Palm Grove Street, Merriton Landing</li>
+        </ul>
+        <button class="btn-secondary" data-lodging="palm-grove-villas">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/lodging/volcano-view-lodge.jpg" alt="Volcano View Lodge" />
+      <div class="card-info">
+        <h2>Volcano View Lodge</h2>
+        <p>Cozy hillside lodge offering breathtaking views of Taniti’s active volcano. Perfect for nature lovers.</p>
+        <ul class="card-details">
+          <li><strong>Max Capacity:</strong> 2 guests</li>
+          <li><strong>Minimum Nights:</strong> 1</li>
+          <li><strong>Price Per Night:</strong> $150</li>
+          <li><strong>Address:</strong> 88 Crater Road, Taniti Highlands</li>
+        </ul>
+        <button class="btn-secondary" data-lodging="volcano-view-lodge">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/lodging/coral-reef-inn.jpg" alt="Coral Reef Inn" />
+      <div class="card-info">
+        <h2>Coral Reef Inn</h2>
+        <p>Charming boutique inn located steps from the marina. Offers easy access to boat tours and waterfront dining.</p>
+        <ul class="card-details">
+          <li><strong>Max Capacity:</strong> 3 guests</li>
+          <li><strong>Minimum Nights:</strong> 2</li>
+          <li><strong>Price Per Night:</strong> $180</li>
+          <li><strong>Address:</strong> 14 Marina Lane, Taniti Harbor</li>
+        </ul>
+        <button class="btn-secondary" data-lodging="coral-reef-inn">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/lodging/rainforest-hideaway.jpg" alt="Rainforest Hideaway" />
+      <div class="card-info">
+        <h2>Rainforest Hideaway</h2>
+        <p>Secluded eco-lodge nestled deep in the rainforest. Perfect for travelers seeking peace, privacy, and adventure.</p>
+        <ul class="card-details">
+          <li><strong>Max Capacity:</strong> 2 guests</li>
+          <li><strong>Minimum Nights:</strong> 2</li>
+          <li><strong>Price Per Night:</strong> $200</li>
+          <li><strong>Address:</strong> 51 Green Trail Road, Taniti Highlands</li>
+        </ul>
+        <button class="btn-secondary" data-lodging="rainforest-hideaway">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/lodging/seashell-apartments.jpg" alt="Seashell Apartments" />
+      <div class="card-info">
+        <h2>Seashell Apartments</h2>
+        <p>Modern, fully equipped apartments located in the heart of Taniti City. Great for extended stays.</p>
+        <ul class="card-details">
+          <li><strong>Max Capacity:</strong> 4 guests</li>
+          <li><strong>Minimum Nights:</strong> 5</li>
+          <li><strong>Price Per Night:</strong> $220</li>
+          <li><strong>Address:</strong> 77 Market Street, Taniti City</li>
+        </ul>
+        <button class="btn-secondary" data-lodging="seashell-apartments">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/lodging/sunset-bay-cabins.jpg" alt="Sunset Bay Cabins" />
+      <div class="card-info">
+        <h2>Sunset Bay Cabins</h2>
+        <p>Rustic wooden cabins with unbeatable sunset views over the bay. Perfect for romantic getaways.</p>
+        <ul class="card-details">
+          <li><strong>Max Capacity:</strong> 2 guests</li>
+          <li><strong>Minimum Nights:</strong> 2</li>
+          <li><strong>Price Per Night:</strong> $170</li>
+          <li><strong>Address:</strong> 29 Wharfside Drive, Merriton Landing</li>
+        </ul>
+        <button class="btn-secondary" data-lodging="sunset-bay-cabins">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/lodging/azure-sky-suites.jpg" alt="Azure Sky Suites" />
+      <div class="card-info">
+        <h2>Azure Sky Suites</h2>
+        <p>Chic modern suites with rooftop infinity pool and panoramic city and bay views.</p>
+        <ul class="card-details">
+          <li><strong>Max Capacity:</strong> 4 guests</li>
+          <li><strong>Minimum Nights:</strong> 3</li>
+          <li><strong>Price Per Night:</strong> $300</li>
+          <li><strong>Address:</strong> 3 Skyview Tower, Taniti City</li>
+        </ul>
+        <button class="btn-secondary" data-lodging="azure-sky-suites">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/lodging/lagoon-breeze-bungalows.jpg" alt="Lagoon Breeze Bungalows" />
+      <div class="card-info">
+        <h2>Lagoon Breeze Bungalows</h2>
+        <p>Charming overwater bungalows with direct lagoon access, perfect for swimming and snorkeling.</p>
+        <ul class="card-details">
+          <li><strong>Max Capacity:</strong> 2 guests</li>
+          <li><strong>Minimum Nights:</strong> 4</li>
+          <li><strong>Price Per Night:</strong> $400</li>
+          <li><strong>Address:</strong> 5 Lagoon Lane, Taniti Harbor</li>
+        </ul>
+        <button class="btn-secondary" data-lodging="lagoon-breeze-bungalows">Book Now</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Visit Taniti. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('.card .btn-secondary[data-lodging]').forEach(function (button) {
+        button.addEventListener('click', function () {
+          const lodgingKey = button.getAttribute('data-lodging');
+          if (lodgingKey) {
+            window.location.href = 'reservation.html?attraction=' + encodeURIComponent(lodgingKey);
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

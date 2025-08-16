@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurants – Taniti Tourism</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="restaurants-page">
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-content">
+      <h1 class="logo">TANITI</h1>
+      <nav class="main-nav" id="mainNav">
+        <a href="home.html">Home</a>
+        <a href="lodging.html">Lodging</a>
+        <a href="restaurants.html">Restaurants</a>
+        <a href="activities.html">Activities</a>
+        <a href="home.html#about">About</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="page-banner" style="background-image: url('./assets/restaurant.jpg')">
+    <div class="banner-overlay">
+      <h1>Restaurants</h1>
+    </div>
+  </section>
+
+  <!-- Restaurants Grid -->
+  <section class="grid-section container">
+
+    <div class="card">
+      <img src="./assets/restaurants/ocean-view-grill.jpg" alt="Oceanview Grill restaurant in Taniti" />
+      <div class="card-info">
+        <h2>Oceanview Grill</h2>
+        <p>Fresh-caught seafood served with panoramic ocean views. A perfect blend of local flavors and international dishes.</p>
+        <ul class="card-details">
+          <li><strong>Type:</strong> Seafood & International</li>
+          <li><strong>Hours:</strong> Mon–Sun, 11:00 AM – 10:00 PM</li>
+          <li><strong>Address:</strong> 123 Beachfront Ave, Taniti City</li>
+          <li><strong>Dress Code:</strong> Casual</li>
+        </ul>
+        <button class="btn-secondary" data-restaurant="oceanview-grill">Make a Reservation</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/restaurants/island-restaurant.jpg" alt="Sunset Bistro restaurant in Taniti" />
+      <div class="card-info">
+        <h2>Sunset Bistro</h2>
+        <p>Casual beachside dining with colorful cocktails and live music. Famous for its grilled fish and tropical desserts.</p>
+        <ul class="card-details">
+          <li><strong>Type:</strong> Local & Pan-Asian</li>
+          <li><strong>Hours:</strong> Tue–Sun, 12:00 PM – 11:00 PM</li>
+          <li><strong>Address:</strong> 45 Sunset Blvd, Merriton Landing</li>
+          <li><strong>Dress Code:</strong> Resort Casual</li>
+        </ul>
+        <button class="btn-secondary" data-restaurant="sunset-bistro">Make a Reservation</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/restaurants/volcano-view-cafe.jpg" alt="Volcano View Café restaurant in Taniti" />
+      <div class="card-info">
+        <h2>Volcano View Café</h2>
+        <p>Enjoy a hearty breakfast or light lunch while gazing at Taniti’s active volcano. Known for fresh coffee, tropical fruit smoothies, and locally baked pastries.</p>
+        <ul class="card-details">
+          <li><strong>Type:</strong> Café & Breakfast</li>
+          <li><strong>Hours:</strong> Mon–Sat, 6:30 AM – 3:00 PM</li>
+          <li><strong>Address:</strong> 88 Crater Road, Taniti City</li>
+          <li><strong>Dress Code:</strong> Casual</li>
+        </ul>
+        <button class="btn-secondary" data-restaurant="volcano-view-cafe">Make a Reservation</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/restaurants/coral-reef.jpg" alt="Coral Reef restaurant in Taniti" />
+      <div class="card-info">
+        <h2>Coral Reef</h2>
+        <p>Upscale dining featuring a rotating menu of seafood and locally sourced produce. Elegant ambiance perfect for romantic dinners.</p>
+        <ul class="card-details">
+          <li><strong>Type:</strong> Fine Dining & Seafood</li>
+          <li><strong>Hours:</strong> Mon–Sun, 5:00 PM – 10:30 PM</li>
+          <li><strong>Address:</strong> 14 Marina Lane, Taniti Harbor</li>
+          <li><strong>Dress Code:</strong> Smart Casual</li>
+        </ul>
+        <button class="btn-secondary" data-restaurant="coral-reef">Make a Reservation</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/restaurants/bamboo-hut.jpg" alt="The Bamboo Hut restaurant in Taniti" />
+      <div class="card-info">
+        <h2>The Bamboo Hut</h2>
+        <p>Rustic open-air restaurant serving Tanitian comfort food and family-style platters. A favorite among locals for its authenticity.</p>
+        <ul class="card-details">
+          <li><strong>Type:</strong> Local & Traditional</li>
+          <li><strong>Hours:</strong> Wed–Mon, 11:00 AM – 9:00 PM</li>
+          <li><strong>Address:</strong> 7 Palm Grove Street, Merriton Landing</li>
+          <li><strong>Dress Code:</strong> Casual</li>
+        </ul>
+        <button class="btn-secondary" data-restaurant="bamboo-hut">Make a Reservation</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/restaurants/tropical-harvest.jpg" alt="Tropical Harvest restaurant in Taniti" />
+      <div class="card-info">
+        <h2>Tropical Harvest</h2>
+        <p>Healthy, farm-to-table restaurant featuring locally sourced ingredients in creative dishes.</p>
+        <ul class="card-details">
+          <li><strong>Type:</strong> Vegetarian & International</li>
+          <li><strong>Hours:</strong> Mon–Sun, 9:00 AM – 9:00 PM</li>
+          <li><strong>Address:</strong> 101 Garden Way, Taniti Hills</li>
+          <li><strong>Dress Code:</strong> Casual</li>
+        </ul>
+        <button class="btn-secondary" data-restaurant="tropical-harvest">Make a Reservation</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/restaurants/brewery-grill.jpg" alt="Merriton Landing Brewery & Grill in Taniti" />
+      <div class="card-info">
+        <h2>Merriton Landing Brewery & Grill</h2>
+        <p>Craft beers brewed on-site paired with hearty grilled dishes. Relaxed atmosphere with live bands on weekends.</p>
+        <ul class="card-details">
+          <li><strong>Type:</strong> Pub & Grill</li>
+          <li><strong>Hours:</strong> Mon–Sun, 12:00 PM – 12:00 AM</li>
+          <li><strong>Address:</strong> 29 Wharfside Drive, Merriton Landing</li>
+          <li><strong>Dress Code:</strong> Casual</li>
+        </ul>
+        <button class="btn-secondary" data-restaurant="brewery-grill">Make a Reservation</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/restaurants/azure-rooftop.jpg" alt="Azure Sky Rooftop Lounge in Taniti" />
+      <div class="card-info">
+        <h2>Azure Sky Rooftop Lounge</h2>
+        <p>Chic rooftop venue offering panoramic bay views, signature cocktails, and tapas-style plates. Perfect for sunset evenings.</p>
+        <ul class="card-details">
+          <li><strong>Type:</strong> Lounge & Tapas</li>
+          <li><strong>Hours:</strong> Thu–Sun, 4:00 PM – 1:00 AM</li>
+          <li><strong>Address:</strong> 3 Skyview Tower, Taniti City</li>
+          <li><strong>Dress Code:</strong> Elegant Casual</li>
+        </ul>
+        <button class="btn-secondary" data-restaurant="azure-sky">Make a Reservation</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/restaurants/rainforest-flavors.jpg" alt="Rainforest Flavors restaurant in Taniti" />
+      <div class="card-info">
+        <h2>Rainforest Flavors</h2>
+        <p>Nestled on the edge of the rainforest, this restaurant serves organic vegetarian and vegan dishes inspired by Tanitian and Asian cuisine.</p>
+        <ul class="card-details">
+          <li><strong>Type:</strong> Vegetarian & Vegan Fusion</li>
+          <li><strong>Hours:</strong> Tue–Sun, 10:00 AM – 9:00 PM</li>
+          <li><strong>Address:</strong> 51 Green Trail Road, Taniti Highlands</li>
+          <li><strong>Dress Code:</strong> Casual</li>
+        </ul>
+        <button class="btn-secondary" data-restaurant="rainforest-flavors">Make a Reservation</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Visit Taniti. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('.card .btn-secondary[data-restaurant]').forEach(function (button) {
+        button.addEventListener('click', function () {
+          const restaurantKey = button.getAttribute('data-restaurant');
+          if (restaurantKey) {
+            window.location.href = 'reservation.html?attraction=' + encodeURIComponent(restaurantKey);
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

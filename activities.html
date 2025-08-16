@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Activities – Taniti Tourism</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="activities-page">
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-content">
+      <h1 class="logo">TANITI</h1>
+      <nav class="main-nav" id="mainNav">
+        <a href="home.html">Home</a>
+        <a href="lodging.html">Lodging</a>
+        <a href="restaurants.html">Restaurants</a>
+        <a href="activities.html">Activities</a>
+        <a href="home.html#about">About</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="page-banner" style="background-image: url('./assets/activity.jpg')">
+    <div class="banner-overlay">
+      <h1>Activities</h1>
+    </div>
+  </section>
+
+  <!-- Activities Grid -->
+  <section class="grid-section container">
+
+    <div class="card">
+      <img src="./assets/activities/snorkeling.jpg" alt="Snorkeling in Taniti" />
+      <div class="card-info">
+        <h2>Coral Reef Snorkeling</h2>
+        <p>Swim among vibrant coral reefs and colorful tropical fish with a guided snorkeling tour.</p>
+        <ul class="card-details">
+          <li><strong>Duration:</strong> 3 hours</li>
+          <li><strong>Schedule:</strong> Daily, 9:00 AM & 1:00 PM</li>
+          <li><strong>Meeting Point:</strong> Taniti Harbor</li>
+          <li><strong>Price:</strong> $60 per person</li>
+        </ul>
+        <button class="btn-secondary" data-activity="snorkeling">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/activities/volcano-hike.jpg" alt="Volcano hiking in Taniti" />
+      <div class="card-info">
+        <h2>Volcano Summit Hike</h2>
+        <p>Take an adventurous trek to the summit of Taniti’s active volcano and enjoy panoramic views.</p>
+        <ul class="card-details">
+          <li><strong>Duration:</strong> 5 hours</li>
+          <li><strong>Schedule:</strong> Tue–Sun, 6:00 AM</li>
+          <li><strong>Meeting Point:</strong> Crater Base Camp</li>
+          <li><strong>Price:</strong> $80 per person</li>
+        </ul>
+        <button class="btn-secondary" data-activity="volcano-hike">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/activities/zipline.jpg" alt="Ziplining adventure in Taniti" />
+      <div class="card-info">
+        <h2>Rainforest Zipline</h2>
+        <p>Fly above the lush canopy and get a bird’s-eye view of Taniti’s untouched rainforest.</p>
+        <ul class="card-details">
+          <li><strong>Duration:</strong> 2 hours</li>
+          <li><strong>Schedule:</strong> Mon–Sat, Every Hour from 8 AM</li>
+          <li><strong>Meeting Point:</strong> Merriton Landing Zip Center</li>
+          <li><strong>Price:</strong> $50 per person</li>
+        </ul>
+        <button class="btn-secondary" data-activity="zipline">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/activities/scubadiving.jpg" alt="Scuba diving in Taniti" />
+      <div class="card-info">
+        <h2>Scuba Diving Expedition</h2>
+        <p>Dive into deeper waters to explore shipwrecks, exotic marine life, and underwater caves.</p>
+        <ul class="card-details">
+          <li><strong>Duration:</strong> 4 hours</li>
+          <li><strong>Schedule:</strong> Wed–Sun, 8:00 AM</li>
+          <li><strong>Meeting Point:</strong> Deep Blue Dive Center</li>
+          <li><strong>Price:</strong> $120 per person</li>
+        </ul>
+        <button class="btn-secondary" data-activity="scuba-diving">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/activities/kayaking.jpg" alt="Kayaking in Taniti" />
+      <div class="card-info">
+        <h2>Coastal Kayaking</h2>
+        <p>Paddle along Taniti’s scenic shoreline, discovering hidden beaches and sea caves.</p>
+        <ul class="card-details">
+          <li><strong>Duration:</strong> 3 hours</li>
+          <li><strong>Schedule:</strong> Daily, 10:00 AM & 2:00 PM</li>
+          <li><strong>Meeting Point:</strong> Taniti Kayak Club</li>
+          <li><strong>Price:</strong> $45 per person</li>
+        </ul>
+        <button class="btn-secondary" data-activity="kayaking">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/activities/cultural-show.jpg" alt="Cultural dance show in Taniti" />
+      <div class="card-info">
+        <h2>Cultural Dance Show</h2>
+        <p>Experience Tanitian culture through traditional dance, music, and storytelling.</p>
+        <ul class="card-details">
+          <li><strong>Duration:</strong> 1.5 hours</li>
+          <li><strong>Schedule:</strong> Thu–Sat, 7:00 PM</li>
+          <li><strong>Location:</strong> Taniti Cultural Center</li>
+          <li><strong>Price:</strong> $30 per person</li>
+        </ul>
+        <button class="btn-secondary" data-activity="cultural-show">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/activities/fishing.jpg" alt="Fishing trip in Taniti" />
+      <div class="card-info">
+        <h2>Deep Sea Fishing Trip</h2>
+        <p>Join local fishermen for a half-day fishing trip and try your luck catching big game fish.</p>
+        <ul class="card-details">
+          <li><strong>Duration:</strong> 4 hours</li>
+          <li><strong>Schedule:</strong> Mon–Sun, 6:00 AM</li>
+          <li><strong>Meeting Point:</strong> Taniti Fishing Docks</li>
+          <li><strong>Price:</strong> $90 per person</li>
+        </ul>
+        <button class="btn-secondary" data-activity="fishing-trip">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/activities/rainforest-hike.jpg" alt="Rainforest hiking in Taniti" />
+      <div class="card-info">
+        <h2>Rainforest Nature Hike</h2>
+        <p>Discover exotic plants, wildlife, and hidden waterfalls with a knowledgeable local guide.</p>
+        <ul class="card-details">
+          <li><strong>Duration:</strong> 3 hours</li>
+          <li><strong>Schedule:</strong> Daily, 8:00 AM & 1:00 PM</li>
+          <li><strong>Meeting Point:</strong> Taniti Eco Tours</li>
+          <li><strong>Price:</strong> $40 per person</li>
+        </ul>
+        <button class="btn-secondary" data-activity="rainforest-hike">Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/activities/sailing.jpg" alt="Sailing tour in Taniti" />
+      <div class="card-info">
+        <h2>Sunset Sailing Cruise</h2>
+        <p>Set sail on a luxury catamaran to watch the sun dip below the horizon with complimentary drinks.</p>
+        <ul class="card-details">
+          <li><strong>Duration:</strong> 2 hours</li>
+          <li><strong>Schedule:</strong> Daily, 5:00 PM</li>
+          <li><strong>Departure:</strong> Taniti Marina</li>
+          <li><strong>Price:</strong> $70 per person</li>
+        </ul>
+        <button class="btn-secondary" data-activity="sunset-sailing">Book Now</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Visit Taniti. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('.card .btn-secondary[data-activity]').forEach(function (button) {
+        button.addEventListener('click', function () {
+          const activityKey = button.getAttribute('data-activity');
+          if (activityKey) {
+            window.location.href = 'reservation.html?attraction=' + encodeURIComponent(activityKey);
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

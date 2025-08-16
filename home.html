@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taniti Tourism</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-content">
+      <h1 class="logo">TANITI</h1>
+      <nav class="main-nav" id="mainNav">
+        <a href="home.html">Home</a>
+        <a href="lodging.html">Lodging</a>
+        <a href="restaurants.html">Restaurants</a>
+        <a href="activities.html">Activities</a>
+        <a href="home.html#about">About</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <video autoplay muted loop playsinline class="hero-video">
+      <source src="./assets/taniti-background.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+
+    <div class="hero-overlay">
+      <h2>Discover Taniti</h2>
+      <p>Your tropical paradise awaits</p>
+      <div class="hero-buttons">
+        <a href="#lodging" class="btn">Book Lodging</a>
+        <a href="#restaurants" class="btn">Reserve Dining</a>
+        <a href="#activities" class="btn">Book Activities</a>
+      </div>
+      <button class="scroll-down" aria-label="Scroll to content">
+        ↓
+      </button>
+    </div>
+  </section>
+
+
+  <!-- Cards Section -->
+  <section class="cards-section container">
+    <h2 class="section-title">Plan Your Trip</h2>
+    <p class="section-subtext">
+      From cozy beachfront stays to flavorful local cuisine and unforgettable adventures, explore 
+      everything Taniti has to offer and make your trip one to remember.
+    </p>
+    <div class="cards">
+      <div class="home-card" id="lodging">
+        <h2>Lodging</h2>
+        <div class="card-img">
+          <img src="./assets/lodging.jpg"/>
+        </div>
+        <p>From charming beachfront bungalows to luxurious resorts, Taniti offers a variety 
+          of accommodations to suit every traveler. Relax in comfort while enjoying breathtaking 
+          island views and warm island hospitality.</p>
+        <button class="btn-secondary"><a href="lodging.html">Book Now</a></button>
+      </div>
+      <div class="home-card" id="restaurants">
+        <h2>Dining</h2>
+        <div class="card-img">
+          <img src="./assets/restaurant.jpg"/>
+        </div>
+        <p>Savor the vibrant flavors of Taniti with fresh-caught seafood, farm-to-table produce, and 
+          traditional island specialties. Enjoy everything from casual beachfront cafés with ocean views 
+          to fine dining restaurants serving international cuisine.</p>
+        <button class="btn-secondary"><a href="restaurants.html">Make a Reservation</a></button>
+      </div>
+      <div class="home-card" id="activities">
+        <h2>Activities</h2>
+        <div class="card-img">
+          <img src="./assets/activity.jpg"/>
+        </div>
+        <p>Experience the beauty and adventure of Taniti with activities for every traveler. Hike lush 
+          rainforest trails, explore an active volcano, or glide through the treetops on a 
+          zip-line. Immerse yourself in local traditions with cultural tours and festivals.</p>
+        <button class="btn-secondary"><a href="activities.html">Book Now</a></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <h2 class="about-title">About the Island of Taniti</h2>
+      <p class="about-subtext">
+        Just 300 miles from the nearest mainland, Taniti has been called “the Pacific’s best-kept secret” for 
+        centuries. With less than 500 square miles of untouched beauty, the island offers dazzling white-sand beaches, 
+        secluded coves, and a safe harbor that has welcomed travelers since the days of wooden sailing ships.
+      </p>
+
+      <!-- Row 1 -->
+      <div class="about-row">
+        <div class="about-text">
+          <h3>Beaches & Coastline</h3>
+          <p>
+            Taniti’s coastline features soft white sands, crystal-clear waters, and vibrant coral reefs teeming with marine life. Whether you’re looking to sunbathe, swim, or enjoy water sports, the island’s beaches offer something for everyone.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="./assets/taniti-beach.jpg" alt="White sandy beach with turquoise waters in Taniti" />
+        </div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="about-row reverse">
+        <div class="about-text">
+          <h3>Rainforests & Volcano</h3>
+          <p>
+            Lush tropical rainforests cover much of Taniti’s interior, leading up to a small active volcano. Hiking trails wind through rich vegetation and offer breathtaking views, making this a must-see for adventurers.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="./assets/volcano.jpg" alt="Lush rainforest leading up to Taniti's volcano" />
+        </div>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="about-row">
+        <div class="about-text">
+          <h3>Culture & Cuisine</h3>
+          <p>
+            Experience Taniti’s warm hospitality through its vibrant culture and rich culinary traditions. From local markets to fine dining, the island blends authentic island flavors with international influences.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="./assets/activities/cultural-show.jpg" alt="Local festival in Taniti with dancers and food stalls" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Visit Taniti. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

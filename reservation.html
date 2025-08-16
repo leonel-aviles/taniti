@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Make a Reservation - Taniti Tourism</title>
+  <link rel="stylesheet" href="styles.css" /> <!-- general site styles -->
+  <link rel="stylesheet" href="reservation.css" /> <!-- reservation-specific styles -->
+</head>
+<body class="reservation-page">
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-content">
+      <h1 class="logo">TANITI</h1>
+      <nav class="main-nav" id="mainNav">
+        <a href="home.html">Home</a>
+        <a href="lodging.html">Lodging</a>
+        <a href="restaurants.html">Restaurants</a>
+        <a href="activities.html">Activities</a>
+        <a href="home.html#about">About</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu">☰</button>
+    </div>
+  </header>
+
+  <!-- Reservation Page -->
+  <section class="reservation-container container">
+    <!-- Reservation Form -->
+    <div class="reservation-form-column">
+        <h2>Make a Reservation</h2>
+        <form id="reservation-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date" class="remove">Date:</label>
+            <input type="date" id="date" name="date"  class="remove" required>
+
+            <label for="time" class="remove">Time:</label>
+            <input type="time" id="time" name="time" class="remove" required>
+
+            <label for="guests">Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" required>
+
+            <label for="note">Notes:</label>
+            <textarea id="note" name="note" rows="4" placeholder="Any special requests?"></textarea>
+
+            <button type="submit">Reserve</button>
+        </form>
+    </div>
+
+
+    <!-- Restaurant Info Column -->
+    <div class="reservation-info-column" id="attraction-info">
+      <!-- Dynamically inserted restaurant info -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Visit Taniti. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="reservation.js"></script>
+</body>
+</html>
