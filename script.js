@@ -20,16 +20,6 @@ window.addEventListener('scroll', () => {
   }
 });
 
-
-// Mobile menu toggle
-navToggle.addEventListener('click', () => {
-  mainNav.classList.toggle('active');
-  navToggle.setAttribute(
-    'aria-expanded',
-    mainNav.classList.contains('active')
-  );
-});
-
 // Navbar background & link color change on scroll
 window.addEventListener('scroll', () => {
   if (window.scrollY > 50) {

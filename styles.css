@@ -352,6 +352,9 @@ body {
   .main-nav.active {
     display: flex;
   }
+  .main-nav a {
+    color: var(--primary-color) !important;
+  }
   .nav-toggle {
     display: block;
   }
